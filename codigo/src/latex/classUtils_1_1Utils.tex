@@ -1,0 +1,111 @@
+\hypertarget{classUtils_1_1Utils}{}\doxysection{Utils.\+Utils Class Reference}
+\label{classUtils_1_1Utils}\index{Utils.Utils@{Utils.Utils}}
+
+
+Class \mbox{\hyperlink{classUtils_1_1Utils}{Utils}}.  
+
+
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static String\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classUtils_1_1Utils_a18dbb3f962ddee4a064f4f20cc090f73}{parse\+Line}} (String line)
+\item 
+static void \mbox{\hyperlink{classUtils_1_1Utils_a2e8244c25989d7881194ca60179a1382}{read\+From\+File}} (\mbox{\hyperlink{classGraph_1_1Graph}{Graph}} graph)
+\item 
+static int \mbox{\hyperlink{classUtils_1_1Utils_a8fa1e1c4d76e067400f2406e61a87f42}{calculate\+Max\+Flow\+Path}} (\mbox{\hyperlink{classGraph_1_1Graph}{Graph}} graph, Array\+List$<$ \mbox{\hyperlink{classGraph_1_1Node}{Node}} $>$ path)
+\item 
+static int \mbox{\hyperlink{classUtils_1_1Utils_af40280f0120a95b5484ea586d7577d19}{Caminhos\+Capacidade\+Maxima}} (\mbox{\hyperlink{classGraph_1_1Graph}{Graph}} graph, Array\+List$<$ \mbox{\hyperlink{classGraph_1_1Node}{Node}} $>$ path)
+\item 
+static void \mbox{\hyperlink{classUtils_1_1Utils_a78cfd7363764b5faadc4605f8b117699}{set\+Visited\+Edges}} (\mbox{\hyperlink{classGraph_1_1Graph}{Graph}} graph, Array\+List$<$ \mbox{\hyperlink{classGraph_1_1Node}{Node}} $>$ path)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class \mbox{\hyperlink{classUtils_1_1Utils}{Utils}}. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classUtils_1_1Utils_a8fa1e1c4d76e067400f2406e61a87f42}\label{classUtils_1_1Utils_a8fa1e1c4d76e067400f2406e61a87f42}} 
+\index{Utils.Utils@{Utils.Utils}!calculateMaxFlowPath@{calculateMaxFlowPath}}
+\index{calculateMaxFlowPath@{calculateMaxFlowPath}!Utils.Utils@{Utils.Utils}}
+\doxysubsubsection{\texorpdfstring{calculateMaxFlowPath()}{calculateMaxFlowPath()}}
+{\footnotesize\ttfamily static int Utils.\+Utils.\+calculate\+Max\+Flow\+Path (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classGraph_1_1Graph}{Graph}}}]{graph,  }\item[{Array\+List$<$ \mbox{\hyperlink{classGraph_1_1Node}{Node}} $>$}]{path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Calculate max flow path
+
+
+\begin{DoxyParams}{Parameters}
+{\em graph} & \\
+\hline
+{\em path} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+flow 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classUtils_1_1Utils_af40280f0120a95b5484ea586d7577d19}\label{classUtils_1_1Utils_af40280f0120a95b5484ea586d7577d19}} 
+\index{Utils.Utils@{Utils.Utils}!CaminhosCapacidadeMaxima@{CaminhosCapacidadeMaxima}}
+\index{CaminhosCapacidadeMaxima@{CaminhosCapacidadeMaxima}!Utils.Utils@{Utils.Utils}}
+\doxysubsubsection{\texorpdfstring{CaminhosCapacidadeMaxima()}{CaminhosCapacidadeMaxima()}}
+{\footnotesize\ttfamily static int Utils.\+Utils.\+Caminhos\+Capacidade\+Maxima (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classGraph_1_1Graph}{Graph}}}]{graph,  }\item[{Array\+List$<$ \mbox{\hyperlink{classGraph_1_1Node}{Node}} $>$}]{path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Maximum capacity path
+
+
+\begin{DoxyParams}{Parameters}
+{\em graph} & \\
+\hline
+{\em path} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+flow 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classUtils_1_1Utils_a18dbb3f962ddee4a064f4f20cc090f73}\label{classUtils_1_1Utils_a18dbb3f962ddee4a064f4f20cc090f73}} 
+\index{Utils.Utils@{Utils.Utils}!parseLine@{parseLine}}
+\index{parseLine@{parseLine}!Utils.Utils@{Utils.Utils}}
+\doxysubsubsection{\texorpdfstring{parseLine()}{parseLine()}}
+{\footnotesize\ttfamily static String \mbox{[}$\,$\mbox{]} Utils.\+Utils.\+parse\+Line (\begin{DoxyParamCaption}\item[{String}]{line }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Breaks a given string into an array of substrings. Spaces are the delimiter
+
+
+\begin{DoxyParams}{Parameters}
+{\em line} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+parsed line 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classUtils_1_1Utils_a2e8244c25989d7881194ca60179a1382}\label{classUtils_1_1Utils_a2e8244c25989d7881194ca60179a1382}} 
+\index{Utils.Utils@{Utils.Utils}!readFromFile@{readFromFile}}
+\index{readFromFile@{readFromFile}!Utils.Utils@{Utils.Utils}}
+\doxysubsubsection{\texorpdfstring{readFromFile()}{readFromFile()}}
+{\footnotesize\ttfamily static void Utils.\+Utils.\+read\+From\+File (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classGraph_1_1Graph}{Graph}}}]{graph }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Read file information
+
+
+\begin{DoxyParams}{Parameters}
+{\em graph} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classUtils_1_1Utils_a78cfd7363764b5faadc4605f8b117699}\label{classUtils_1_1Utils_a78cfd7363764b5faadc4605f8b117699}} 
+\index{Utils.Utils@{Utils.Utils}!setVisitedEdges@{setVisitedEdges}}
+\index{setVisitedEdges@{setVisitedEdges}!Utils.Utils@{Utils.Utils}}
+\doxysubsubsection{\texorpdfstring{setVisitedEdges()}{setVisitedEdges()}}
+{\footnotesize\ttfamily static void Utils.\+Utils.\+set\+Visited\+Edges (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classGraph_1_1Graph}{Graph}}}]{graph,  }\item[{Array\+List$<$ \mbox{\hyperlink{classGraph_1_1Node}{Node}} $>$}]{path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set visited edges
+
+
+\begin{DoxyParams}{Parameters}
+{\em graph} & \\
+\hline
+{\em path} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Utils/Utils.\+java\end{DoxyCompactItemize}

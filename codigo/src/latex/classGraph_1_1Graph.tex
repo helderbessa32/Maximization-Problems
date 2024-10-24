@@ -1,0 +1,192 @@
+\hypertarget{classGraph_1_1Graph}{}\doxysection{Graph.\+Graph Class Reference}
+\label{classGraph_1_1Graph}\index{Graph.Graph@{Graph.Graph}}
+
+
+Class \mbox{\hyperlink{classGraph_1_1Graph}{Graph}}.  
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classGraph_1_1Graph_a148556eaf1d88a79df4d47fb447ff678}{add\+Edge}} (\mbox{\hyperlink{classGraph_1_1Node}{Node}} source, \mbox{\hyperlink{classGraph_1_1Node}{Node}} destination, int capacity, int duration, boolean bi\+Directional)
+\item 
+void \mbox{\hyperlink{classGraph_1_1Graph_a297833a1585008ce026c7126e3279828}{add\+Nodes\+To\+List}} ()
+\item 
+void \mbox{\hyperlink{classGraph_1_1Graph_a2b0fd805dc1d77f26333b5f864e300a6}{has\+Vertex}} (\mbox{\hyperlink{classGraph_1_1Node}{Node}} vertex)
+\item 
+void \mbox{\hyperlink{classGraph_1_1Graph_a4b42f4fe592b864a65c38396f2a0fecc}{has\+Edge}} (\mbox{\hyperlink{classGraph_1_1Node}{Node}} source, \mbox{\hyperlink{classGraph_1_1Node}{Node}} destination)
+\item 
+String \mbox{\hyperlink{classGraph_1_1Graph_a23ddf96470efb52c070b86df15191885}{print\+Graph}} ()
+\item 
+void \mbox{\hyperlink{classGraph_1_1Graph_a18cf873bbb2578ee2166c1bf0c302d86}{print\+Edges}} ()
+\item 
+\mbox{\hyperlink{classGraph_1_1Node}{Node}} \mbox{\hyperlink{classGraph_1_1Graph_a4df980752e136ca0a2a17b9065a9356e}{search\+Node}} (int val)
+\item 
+Map$<$ \mbox{\hyperlink{classGraph_1_1Node}{Node}}, List$<$ \mbox{\hyperlink{classGraph_1_1Node}{Node}} $>$ $>$ \mbox{\hyperlink{classGraph_1_1Graph_afad7278df147617c8b314ebd60f3ec6d}{get\+Graph}} ()
+\item 
+Array\+List$<$ \mbox{\hyperlink{classGraph_1_1Node}{Node}} $>$ \mbox{\hyperlink{classGraph_1_1Graph_abd05e593aaf792e558565bc19062dcdc}{get\+Nodes}} ()
+\item 
+void \mbox{\hyperlink{classGraph_1_1Graph_aa608224b30f65453981de324a1dcdd0f}{add\+Node\+To\+Array}} (\mbox{\hyperlink{classGraph_1_1Node}{Node}} node)
+\item 
+\mbox{\hyperlink{classGraph_1_1Edge}{Edge}} \mbox{\hyperlink{classGraph_1_1Graph_ac18a6326250d373365e1f336ab47b501}{get\+Edge}} (\mbox{\hyperlink{classGraph_1_1Node}{Node}} source, \mbox{\hyperlink{classGraph_1_1Node}{Node}} dest)
+\item 
+void \mbox{\hyperlink{classGraph_1_1Graph_af6735baa4d5507321e8a5bc287b038e6}{create\+Residual\+Graph}} (\mbox{\hyperlink{classGraph_1_1Graph}{Graph}} residual\+Graph)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class \mbox{\hyperlink{classGraph_1_1Graph}{Graph}}. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classGraph_1_1Graph_a148556eaf1d88a79df4d47fb447ff678}\label{classGraph_1_1Graph_a148556eaf1d88a79df4d47fb447ff678}} 
+\index{Graph.Graph@{Graph.Graph}!addEdge@{addEdge}}
+\index{addEdge@{addEdge}!Graph.Graph@{Graph.Graph}}
+\doxysubsubsection{\texorpdfstring{addEdge()}{addEdge()}}
+{\footnotesize\ttfamily void Graph.\+Graph.\+add\+Edge (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classGraph_1_1Node}{Node}}}]{source,  }\item[{\mbox{\hyperlink{classGraph_1_1Node}{Node}}}]{destination,  }\item[{int}]{capacity,  }\item[{int}]{duration,  }\item[{boolean}]{bi\+Directional }\end{DoxyParamCaption})}
+
+Add edge
+
+
+\begin{DoxyParams}{Parameters}
+{\em source} & node \\
+\hline
+{\em destination} & node \\
+\hline
+{\em capacity} & \\
+\hline
+{\em duration} & \\
+\hline
+{\em bidirectional} & corresponding bool \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGraph_1_1Graph_a297833a1585008ce026c7126e3279828}\label{classGraph_1_1Graph_a297833a1585008ce026c7126e3279828}} 
+\index{Graph.Graph@{Graph.Graph}!addNodesToList@{addNodesToList}}
+\index{addNodesToList@{addNodesToList}!Graph.Graph@{Graph.Graph}}
+\doxysubsubsection{\texorpdfstring{addNodesToList()}{addNodesToList()}}
+{\footnotesize\ttfamily void Graph.\+Graph.\+add\+Nodes\+To\+List (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Add nodes to list \mbox{\Hypertarget{classGraph_1_1Graph_aa608224b30f65453981de324a1dcdd0f}\label{classGraph_1_1Graph_aa608224b30f65453981de324a1dcdd0f}} 
+\index{Graph.Graph@{Graph.Graph}!addNodeToArray@{addNodeToArray}}
+\index{addNodeToArray@{addNodeToArray}!Graph.Graph@{Graph.Graph}}
+\doxysubsubsection{\texorpdfstring{addNodeToArray()}{addNodeToArray()}}
+{\footnotesize\ttfamily void Graph.\+Graph.\+add\+Node\+To\+Array (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classGraph_1_1Node}{Node}}}]{node }\end{DoxyParamCaption})}
+
+Add node to array
+
+
+\begin{DoxyParams}{Parameters}
+{\em node} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGraph_1_1Graph_af6735baa4d5507321e8a5bc287b038e6}\label{classGraph_1_1Graph_af6735baa4d5507321e8a5bc287b038e6}} 
+\index{Graph.Graph@{Graph.Graph}!createResidualGraph@{createResidualGraph}}
+\index{createResidualGraph@{createResidualGraph}!Graph.Graph@{Graph.Graph}}
+\doxysubsubsection{\texorpdfstring{createResidualGraph()}{createResidualGraph()}}
+{\footnotesize\ttfamily void Graph.\+Graph.\+create\+Residual\+Graph (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classGraph_1_1Graph}{Graph}}}]{residual\+Graph }\end{DoxyParamCaption})}
+
+Create residual graph
+
+
+\begin{DoxyParams}{Parameters}
+{\em graph} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGraph_1_1Graph_ac18a6326250d373365e1f336ab47b501}\label{classGraph_1_1Graph_ac18a6326250d373365e1f336ab47b501}} 
+\index{Graph.Graph@{Graph.Graph}!getEdge@{getEdge}}
+\index{getEdge@{getEdge}!Graph.Graph@{Graph.Graph}}
+\doxysubsubsection{\texorpdfstring{getEdge()}{getEdge()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classGraph_1_1Edge}{Edge}} Graph.\+Graph.\+get\+Edge (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classGraph_1_1Node}{Node}}}]{source,  }\item[{\mbox{\hyperlink{classGraph_1_1Node}{Node}}}]{dest }\end{DoxyParamCaption})}
+
+Get edge
+
+\begin{DoxyReturn}{Returns}
+edge 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGraph_1_1Graph_afad7278df147617c8b314ebd60f3ec6d}\label{classGraph_1_1Graph_afad7278df147617c8b314ebd60f3ec6d}} 
+\index{Graph.Graph@{Graph.Graph}!getGraph@{getGraph}}
+\index{getGraph@{getGraph}!Graph.Graph@{Graph.Graph}}
+\doxysubsubsection{\texorpdfstring{getGraph()}{getGraph()}}
+{\footnotesize\ttfamily Map$<$\mbox{\hyperlink{classGraph_1_1Node}{Node}}, List$<$\mbox{\hyperlink{classGraph_1_1Node}{Node}}$>$ $>$ Graph.\+Graph.\+get\+Graph (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Get graph
+
+\begin{DoxyReturn}{Returns}
+graph 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGraph_1_1Graph_abd05e593aaf792e558565bc19062dcdc}\label{classGraph_1_1Graph_abd05e593aaf792e558565bc19062dcdc}} 
+\index{Graph.Graph@{Graph.Graph}!getNodes@{getNodes}}
+\index{getNodes@{getNodes}!Graph.Graph@{Graph.Graph}}
+\doxysubsubsection{\texorpdfstring{getNodes()}{getNodes()}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classGraph_1_1Node}{Node}}$>$ Graph.\+Graph.\+get\+Nodes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Get nodes
+
+\begin{DoxyReturn}{Returns}
+nodes 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGraph_1_1Graph_a4b42f4fe592b864a65c38396f2a0fecc}\label{classGraph_1_1Graph_a4b42f4fe592b864a65c38396f2a0fecc}} 
+\index{Graph.Graph@{Graph.Graph}!hasEdge@{hasEdge}}
+\index{hasEdge@{hasEdge}!Graph.Graph@{Graph.Graph}}
+\doxysubsubsection{\texorpdfstring{hasEdge()}{hasEdge()}}
+{\footnotesize\ttfamily void Graph.\+Graph.\+has\+Edge (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classGraph_1_1Node}{Node}}}]{source,  }\item[{\mbox{\hyperlink{classGraph_1_1Node}{Node}}}]{destination }\end{DoxyParamCaption})}
+
+Verifies if the graph contains an edge or not
+
+
+\begin{DoxyParams}{Parameters}
+{\em source} & node \\
+\hline
+{\em destination} & node \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGraph_1_1Graph_a2b0fd805dc1d77f26333b5f864e300a6}\label{classGraph_1_1Graph_a2b0fd805dc1d77f26333b5f864e300a6}} 
+\index{Graph.Graph@{Graph.Graph}!hasVertex@{hasVertex}}
+\index{hasVertex@{hasVertex}!Graph.Graph@{Graph.Graph}}
+\doxysubsubsection{\texorpdfstring{hasVertex()}{hasVertex()}}
+{\footnotesize\ttfamily void Graph.\+Graph.\+has\+Vertex (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classGraph_1_1Node}{Node}}}]{vertex }\end{DoxyParamCaption})}
+
+Verifies if the graph contains a vertex or not
+
+
+\begin{DoxyParams}{Parameters}
+{\em vertex} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGraph_1_1Graph_a18cf873bbb2578ee2166c1bf0c302d86}\label{classGraph_1_1Graph_a18cf873bbb2578ee2166c1bf0c302d86}} 
+\index{Graph.Graph@{Graph.Graph}!printEdges@{printEdges}}
+\index{printEdges@{printEdges}!Graph.Graph@{Graph.Graph}}
+\doxysubsubsection{\texorpdfstring{printEdges()}{printEdges()}}
+{\footnotesize\ttfamily void Graph.\+Graph.\+print\+Edges (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Print edges \mbox{\Hypertarget{classGraph_1_1Graph_a23ddf96470efb52c070b86df15191885}\label{classGraph_1_1Graph_a23ddf96470efb52c070b86df15191885}} 
+\index{Graph.Graph@{Graph.Graph}!printGraph@{printGraph}}
+\index{printGraph@{printGraph}!Graph.Graph@{Graph.Graph}}
+\doxysubsubsection{\texorpdfstring{printGraph()}{printGraph()}}
+{\footnotesize\ttfamily String Graph.\+Graph.\+print\+Graph (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Print graph
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGraph_1_1Graph_a4df980752e136ca0a2a17b9065a9356e}\label{classGraph_1_1Graph_a4df980752e136ca0a2a17b9065a9356e}} 
+\index{Graph.Graph@{Graph.Graph}!searchNode@{searchNode}}
+\index{searchNode@{searchNode}!Graph.Graph@{Graph.Graph}}
+\doxysubsubsection{\texorpdfstring{searchNode()}{searchNode()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classGraph_1_1Node}{Node}} Graph.\+Graph.\+search\+Node (\begin{DoxyParamCaption}\item[{int}]{val }\end{DoxyParamCaption})}
+
+Search node
+
+
+\begin{DoxyParams}{Parameters}
+{\em node} & value \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+node 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Graph/Graph.\+java\end{DoxyCompactItemize}

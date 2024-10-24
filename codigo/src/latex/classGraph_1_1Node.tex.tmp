@@ -1,0 +1,226 @@
+\hypertarget{classGraph_1_1Node}{}\doxysection{Graph.\+Node Class Reference}
+\label{classGraph_1_1Node}\index{Graph.Node@{Graph.Node}}
+
+
+Class \mbox{\hyperlink{classGraph_1_1Node}{Node}}.  
+
+
+
+
+Inheritance diagram for Graph.\+Node\+:
+% FIG 0
+
+
+Collaboration diagram for Graph.\+Node\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classGraph_1_1Node_a0b8b21a1ce2d250815fb301c52982923}{Node}} (int value)
+\item 
+void \mbox{\hyperlink{classGraph_1_1Node_a079733f3d4eb87e7ddd2df47799508d3}{add\+Outgoing\+Edge}} (\mbox{\hyperlink{classGraph_1_1Edge}{Edge}} edge)
+\item 
+int \mbox{\hyperlink{classGraph_1_1Node_ac4afef0f087a138b752f6c18ab260f25}{get\+Value}} ()
+\item 
+Array\+List$<$ \mbox{\hyperlink{classGraph_1_1Edge}{Edge}} $>$ \mbox{\hyperlink{classGraph_1_1Node_ad667443115939849386e275f2ae0d3bb}{get\+Outgoing\+Edges}} ()
+\item 
+void \mbox{\hyperlink{classGraph_1_1Node_ac4551ca367dd0b31fc51789c24ff8b60}{set\+Capacity}} (int capacity)
+\item 
+void \mbox{\hyperlink{classGraph_1_1Node_a115b93b3bbef1f2bf32ce3dffd219ea2}{set\+Father\+Node}} (\mbox{\hyperlink{classGraph_1_1Node}{Node}} father\+Node)
+\item 
+int \mbox{\hyperlink{classGraph_1_1Node_a6e8240e4c8272f9e0bbb2cfd8e36a006}{get\+Capacity}} ()
+\item 
+\mbox{\hyperlink{classGraph_1_1Node}{Node}} \mbox{\hyperlink{classGraph_1_1Node_ad175ffe4cf95940a1ef20b9bfafcdd28}{get\+Father\+Node}} ()
+\item 
+boolean \mbox{\hyperlink{classGraph_1_1Node_a5178e1c75aa1ae7a640c149a06c44e45}{is\+Visited}} ()
+\item 
+void \mbox{\hyperlink{classGraph_1_1Node_a270cf59ba6efa3b9ef1c8a57006efe03}{set\+Visited}} (boolean visited)
+\item 
+String \mbox{\hyperlink{classGraph_1_1Node_a5bafc67a4f83d56b6a161ca9985cdf91}{to\+String}} ()
+\item 
+boolean \mbox{\hyperlink{classGraph_1_1Node_aa047c3b29bb81f10f2050ef9028c0e69}{equals}} (Object o)
+\item 
+int \mbox{\hyperlink{classGraph_1_1Node_a81286cf1f6be8a0c507748d0879e4036}{hash\+Code}} ()
+\item 
+int \mbox{\hyperlink{classGraph_1_1Node_a9b815fb44d2eb5301025712db500d06b}{compare\+To}} (\mbox{\hyperlink{classGraph_1_1Node}{Node}} node)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class \mbox{\hyperlink{classGraph_1_1Node}{Node}}. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classGraph_1_1Node_a0b8b21a1ce2d250815fb301c52982923}\label{classGraph_1_1Node_a0b8b21a1ce2d250815fb301c52982923}} 
+\index{Graph.Node@{Graph.Node}!Node@{Node}}
+\index{Node@{Node}!Graph.Node@{Graph.Node}}
+\doxysubsubsection{\texorpdfstring{Node()}{Node()}}
+{\footnotesize\ttfamily Graph.\+Node.\+Node (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+Constructor
+
+
+\begin{DoxyParams}{Parameters}
+{\em node} & value \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classGraph_1_1Node_a079733f3d4eb87e7ddd2df47799508d3}\label{classGraph_1_1Node_a079733f3d4eb87e7ddd2df47799508d3}} 
+\index{Graph.Node@{Graph.Node}!addOutgoingEdge@{addOutgoingEdge}}
+\index{addOutgoingEdge@{addOutgoingEdge}!Graph.Node@{Graph.Node}}
+\doxysubsubsection{\texorpdfstring{addOutgoingEdge()}{addOutgoingEdge()}}
+{\footnotesize\ttfamily void Graph.\+Node.\+add\+Outgoing\+Edge (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classGraph_1_1Edge}{Edge}}}]{edge }\end{DoxyParamCaption})}
+
+Add outgoing edge
+
+
+\begin{DoxyParams}{Parameters}
+{\em edge} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGraph_1_1Node_a9b815fb44d2eb5301025712db500d06b}\label{classGraph_1_1Node_a9b815fb44d2eb5301025712db500d06b}} 
+\index{Graph.Node@{Graph.Node}!compareTo@{compareTo}}
+\index{compareTo@{compareTo}!Graph.Node@{Graph.Node}}
+\doxysubsubsection{\texorpdfstring{compareTo()}{compareTo()}}
+{\footnotesize\ttfamily int Graph.\+Node.\+compare\+To (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classGraph_1_1Node}{Node}}}]{node }\end{DoxyParamCaption})}
+
+Compares two nodes
+
+\begin{DoxyReturn}{Returns}
+0 if the capacities of the nodes are equal, -\/1 if it is less than the capacity of the other node and 1 if it is greater 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGraph_1_1Node_aa047c3b29bb81f10f2050ef9028c0e69}\label{classGraph_1_1Node_aa047c3b29bb81f10f2050ef9028c0e69}} 
+\index{Graph.Node@{Graph.Node}!equals@{equals}}
+\index{equals@{equals}!Graph.Node@{Graph.Node}}
+\doxysubsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean Graph.\+Node.\+equals (\begin{DoxyParamCaption}\item[{Object}]{o }\end{DoxyParamCaption})}
+
+Compares two node values
+
+\begin{DoxyReturn}{Returns}
+corresponding bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGraph_1_1Node_a6e8240e4c8272f9e0bbb2cfd8e36a006}\label{classGraph_1_1Node_a6e8240e4c8272f9e0bbb2cfd8e36a006}} 
+\index{Graph.Node@{Graph.Node}!getCapacity@{getCapacity}}
+\index{getCapacity@{getCapacity}!Graph.Node@{Graph.Node}}
+\doxysubsubsection{\texorpdfstring{getCapacity()}{getCapacity()}}
+{\footnotesize\ttfamily int Graph.\+Node.\+get\+Capacity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Get capacity
+
+\begin{DoxyReturn}{Returns}
+capacity 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGraph_1_1Node_ad175ffe4cf95940a1ef20b9bfafcdd28}\label{classGraph_1_1Node_ad175ffe4cf95940a1ef20b9bfafcdd28}} 
+\index{Graph.Node@{Graph.Node}!getFatherNode@{getFatherNode}}
+\index{getFatherNode@{getFatherNode}!Graph.Node@{Graph.Node}}
+\doxysubsubsection{\texorpdfstring{getFatherNode()}{getFatherNode()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classGraph_1_1Node}{Node}} Graph.\+Node.\+get\+Father\+Node (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Get father node
+
+\begin{DoxyReturn}{Returns}
+father node 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGraph_1_1Node_ad667443115939849386e275f2ae0d3bb}\label{classGraph_1_1Node_ad667443115939849386e275f2ae0d3bb}} 
+\index{Graph.Node@{Graph.Node}!getOutgoingEdges@{getOutgoingEdges}}
+\index{getOutgoingEdges@{getOutgoingEdges}!Graph.Node@{Graph.Node}}
+\doxysubsubsection{\texorpdfstring{getOutgoingEdges()}{getOutgoingEdges()}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classGraph_1_1Edge}{Edge}}$>$ Graph.\+Node.\+get\+Outgoing\+Edges (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Get outgoing edge
+
+\begin{DoxyReturn}{Returns}
+arraylist with outgoing edges 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGraph_1_1Node_ac4afef0f087a138b752f6c18ab260f25}\label{classGraph_1_1Node_ac4afef0f087a138b752f6c18ab260f25}} 
+\index{Graph.Node@{Graph.Node}!getValue@{getValue}}
+\index{getValue@{getValue}!Graph.Node@{Graph.Node}}
+\doxysubsubsection{\texorpdfstring{getValue()}{getValue()}}
+{\footnotesize\ttfamily int Graph.\+Node.\+get\+Value (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Get node value
+
+
+\begin{DoxyParams}{Parameters}
+{\em node} & value \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGraph_1_1Node_a81286cf1f6be8a0c507748d0879e4036}\label{classGraph_1_1Node_a81286cf1f6be8a0c507748d0879e4036}} 
+\index{Graph.Node@{Graph.Node}!hashCode@{hashCode}}
+\index{hashCode@{hashCode}!Graph.Node@{Graph.Node}}
+\doxysubsubsection{\texorpdfstring{hashCode()}{hashCode()}}
+{\footnotesize\ttfamily int Graph.\+Node.\+hash\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns value for the object
+
+\begin{DoxyReturn}{Returns}
+corresponding integer 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGraph_1_1Node_a5178e1c75aa1ae7a640c149a06c44e45}\label{classGraph_1_1Node_a5178e1c75aa1ae7a640c149a06c44e45}} 
+\index{Graph.Node@{Graph.Node}!isVisited@{isVisited}}
+\index{isVisited@{isVisited}!Graph.Node@{Graph.Node}}
+\doxysubsubsection{\texorpdfstring{isVisited()}{isVisited()}}
+{\footnotesize\ttfamily boolean Graph.\+Node.\+is\+Visited (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Check if the node has been visited
+
+\begin{DoxyReturn}{Returns}
+corresponding bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGraph_1_1Node_ac4551ca367dd0b31fc51789c24ff8b60}\label{classGraph_1_1Node_ac4551ca367dd0b31fc51789c24ff8b60}} 
+\index{Graph.Node@{Graph.Node}!setCapacity@{setCapacity}}
+\index{setCapacity@{setCapacity}!Graph.Node@{Graph.Node}}
+\doxysubsubsection{\texorpdfstring{setCapacity()}{setCapacity()}}
+{\footnotesize\ttfamily void Graph.\+Node.\+set\+Capacity (\begin{DoxyParamCaption}\item[{int}]{capacity }\end{DoxyParamCaption})}
+
+Get capacity
+
+
+\begin{DoxyParams}{Parameters}
+{\em capacity} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGraph_1_1Node_a115b93b3bbef1f2bf32ce3dffd219ea2}\label{classGraph_1_1Node_a115b93b3bbef1f2bf32ce3dffd219ea2}} 
+\index{Graph.Node@{Graph.Node}!setFatherNode@{setFatherNode}}
+\index{setFatherNode@{setFatherNode}!Graph.Node@{Graph.Node}}
+\doxysubsubsection{\texorpdfstring{setFatherNode()}{setFatherNode()}}
+{\footnotesize\ttfamily void Graph.\+Node.\+set\+Father\+Node (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classGraph_1_1Node}{Node}}}]{father\+Node }\end{DoxyParamCaption})}
+
+Set father node
+
+
+\begin{DoxyParams}{Parameters}
+{\em father} & node \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGraph_1_1Node_a270cf59ba6efa3b9ef1c8a57006efe03}\label{classGraph_1_1Node_a270cf59ba6efa3b9ef1c8a57006efe03}} 
+\index{Graph.Node@{Graph.Node}!setVisited@{setVisited}}
+\index{setVisited@{setVisited}!Graph.Node@{Graph.Node}}
+\doxysubsubsection{\texorpdfstring{setVisited()}{setVisited()}}
+{\footnotesize\ttfamily void Graph.\+Node.\+set\+Visited (\begin{DoxyParamCaption}\item[{boolean}]{visited }\end{DoxyParamCaption})}
+
+Set node as visited or not visited
+
+
+\begin{DoxyParams}{Parameters}
+{\em corresponding} & bool \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGraph_1_1Node_a5bafc67a4f83d56b6a161ca9985cdf91}\label{classGraph_1_1Node_a5bafc67a4f83d56b6a161ca9985cdf91}} 
+\index{Graph.Node@{Graph.Node}!toString@{toString}}
+\index{toString@{toString}!Graph.Node@{Graph.Node}}
+\doxysubsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily String Graph.\+Node.\+to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\hyperlink{classGraph_1_1Node}{Node}} to string
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Graph/Node.\+java\end{DoxyCompactItemize}

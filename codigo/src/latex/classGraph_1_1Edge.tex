@@ -1,0 +1,284 @@
+\hypertarget{classGraph_1_1Edge}{}\doxysection{Graph.\+Edge Class Reference}
+\label{classGraph_1_1Edge}\index{Graph.Edge@{Graph.Edge}}
+
+
+Class \mbox{\hyperlink{classGraph_1_1Edge}{Edge}}.  
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classGraph_1_1Edge_aa92258d3db05f4d38c10caa61466c4f5}{Edge}} (\mbox{\hyperlink{classGraph_1_1Node}{Node}} src, \mbox{\hyperlink{classGraph_1_1Node}{Node}} dest, int capacity, int duration)
+\item 
+\mbox{\hyperlink{classGraph_1_1Node}{Node}} \mbox{\hyperlink{classGraph_1_1Edge_a36eddcaac8d16220d573f759d5d152a6}{get\+Src}} ()
+\item 
+\mbox{\hyperlink{classGraph_1_1Node}{Node}} \mbox{\hyperlink{classGraph_1_1Edge_a476c783d200e7d3b3a5ff5406654f375}{get\+Dest}} ()
+\item 
+int \mbox{\hyperlink{classGraph_1_1Edge_a03c506655bfc23e14220857055b98f42}{get\+Duration}} ()
+\item 
+int \mbox{\hyperlink{classGraph_1_1Edge_a668af9c2bf454675ebe357094b944063}{get\+Capacity}} ()
+\item 
+int \mbox{\hyperlink{classGraph_1_1Edge_a10f7d1c245e9c7e2ecf27aad592338c0}{get\+Flow}} ()
+\item 
+boolean \mbox{\hyperlink{classGraph_1_1Edge_ab46fb5912d0c97400b484319cd6ef84d}{is\+Visited}} ()
+\item 
+void \mbox{\hyperlink{classGraph_1_1Edge_a2c0f9ed28a0e3f848e61c410bb5deebb}{set\+Duration}} (int duration)
+\item 
+void \mbox{\hyperlink{classGraph_1_1Edge_ab902b7c7c89cfdcb73ef5ef1da48525a}{set\+Capacity}} (int capacity)
+\item 
+void \mbox{\hyperlink{classGraph_1_1Edge_a206bd8d81c87de135bf68401eba28dad}{set\+Flow}} (int flow)
+\item 
+void \mbox{\hyperlink{classGraph_1_1Edge_a40d1fcb28a078e4c00432ded3ae69c78}{set\+Src}} (\mbox{\hyperlink{classGraph_1_1Node}{Node}} src)
+\item 
+void \mbox{\hyperlink{classGraph_1_1Edge_ad2bf7f3a6c4ef018f6f0b2d45b60e00f}{set\+Dest}} (\mbox{\hyperlink{classGraph_1_1Node}{Node}} dest)
+\item 
+void \mbox{\hyperlink{classGraph_1_1Edge_a27f4ceb537f797e3019315535db25135}{set\+Visited}} (boolean visited)
+\item 
+void \mbox{\hyperlink{classGraph_1_1Edge_adb5df2de405f4f7ef5c04c8fdb08bae0}{decrease\+Flow}} (int flow)
+\item 
+void \mbox{\hyperlink{classGraph_1_1Edge_ab355a0082c574b5aff20facb28c5d114}{increase\+Flow}} (int flow)
+\item 
+void \mbox{\hyperlink{classGraph_1_1Edge_adfb493788912cc3c81924c7129e75373}{add\+Father\+Node\+To\+Dest\+Node}} (\mbox{\hyperlink{classGraph_1_1Node}{Node}} father\+Node)
+\item 
+boolean \mbox{\hyperlink{classGraph_1_1Edge_ad1efc53c679dd504563bd5c8c18c6e76}{equals}} (Object o)
+\item 
+int \mbox{\hyperlink{classGraph_1_1Edge_a0fbb444bf1c0ebe833d08708afd84d6d}{hash\+Code}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class \mbox{\hyperlink{classGraph_1_1Edge}{Edge}}. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classGraph_1_1Edge_aa92258d3db05f4d38c10caa61466c4f5}\label{classGraph_1_1Edge_aa92258d3db05f4d38c10caa61466c4f5}} 
+\index{Graph.Edge@{Graph.Edge}!Edge@{Edge}}
+\index{Edge@{Edge}!Graph.Edge@{Graph.Edge}}
+\doxysubsubsection{\texorpdfstring{Edge()}{Edge()}}
+{\footnotesize\ttfamily Graph.\+Edge.\+Edge (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classGraph_1_1Node}{Node}}}]{src,  }\item[{\mbox{\hyperlink{classGraph_1_1Node}{Node}}}]{dest,  }\item[{int}]{capacity,  }\item[{int}]{duration }\end{DoxyParamCaption})}
+
+Constructor
+
+
+\begin{DoxyParams}{Parameters}
+{\em source} & node \\
+\hline
+{\em destination} & node \\
+\hline
+{\em capacity} & \\
+\hline
+{\em duration} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classGraph_1_1Edge_adfb493788912cc3c81924c7129e75373}\label{classGraph_1_1Edge_adfb493788912cc3c81924c7129e75373}} 
+\index{Graph.Edge@{Graph.Edge}!addFatherNodeToDestNode@{addFatherNodeToDestNode}}
+\index{addFatherNodeToDestNode@{addFatherNodeToDestNode}!Graph.Edge@{Graph.Edge}}
+\doxysubsubsection{\texorpdfstring{addFatherNodeToDestNode()}{addFatherNodeToDestNode()}}
+{\footnotesize\ttfamily void Graph.\+Edge.\+add\+Father\+Node\+To\+Dest\+Node (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classGraph_1_1Node}{Node}}}]{father\+Node }\end{DoxyParamCaption})}
+
+Add father node to the destination node
+
+
+\begin{DoxyParams}{Parameters}
+{\em father} & node \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGraph_1_1Edge_adb5df2de405f4f7ef5c04c8fdb08bae0}\label{classGraph_1_1Edge_adb5df2de405f4f7ef5c04c8fdb08bae0}} 
+\index{Graph.Edge@{Graph.Edge}!decreaseFlow@{decreaseFlow}}
+\index{decreaseFlow@{decreaseFlow}!Graph.Edge@{Graph.Edge}}
+\doxysubsubsection{\texorpdfstring{decreaseFlow()}{decreaseFlow()}}
+{\footnotesize\ttfamily void Graph.\+Edge.\+decrease\+Flow (\begin{DoxyParamCaption}\item[{int}]{flow }\end{DoxyParamCaption})}
+
+Decrease flow
+
+
+\begin{DoxyParams}{Parameters}
+{\em flow} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGraph_1_1Edge_ad1efc53c679dd504563bd5c8c18c6e76}\label{classGraph_1_1Edge_ad1efc53c679dd504563bd5c8c18c6e76}} 
+\index{Graph.Edge@{Graph.Edge}!equals@{equals}}
+\index{equals@{equals}!Graph.Edge@{Graph.Edge}}
+\doxysubsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean Graph.\+Edge.\+equals (\begin{DoxyParamCaption}\item[{Object}]{o }\end{DoxyParamCaption})}
+
+Compares two edge values
+
+\begin{DoxyReturn}{Returns}
+corresponding bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGraph_1_1Edge_a668af9c2bf454675ebe357094b944063}\label{classGraph_1_1Edge_a668af9c2bf454675ebe357094b944063}} 
+\index{Graph.Edge@{Graph.Edge}!getCapacity@{getCapacity}}
+\index{getCapacity@{getCapacity}!Graph.Edge@{Graph.Edge}}
+\doxysubsubsection{\texorpdfstring{getCapacity()}{getCapacity()}}
+{\footnotesize\ttfamily int Graph.\+Edge.\+get\+Capacity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Get capacity
+
+\begin{DoxyReturn}{Returns}
+capacity 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGraph_1_1Edge_a476c783d200e7d3b3a5ff5406654f375}\label{classGraph_1_1Edge_a476c783d200e7d3b3a5ff5406654f375}} 
+\index{Graph.Edge@{Graph.Edge}!getDest@{getDest}}
+\index{getDest@{getDest}!Graph.Edge@{Graph.Edge}}
+\doxysubsubsection{\texorpdfstring{getDest()}{getDest()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classGraph_1_1Node}{Node}} Graph.\+Edge.\+get\+Dest (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Get destination node
+
+\begin{DoxyReturn}{Returns}
+destination node 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGraph_1_1Edge_a03c506655bfc23e14220857055b98f42}\label{classGraph_1_1Edge_a03c506655bfc23e14220857055b98f42}} 
+\index{Graph.Edge@{Graph.Edge}!getDuration@{getDuration}}
+\index{getDuration@{getDuration}!Graph.Edge@{Graph.Edge}}
+\doxysubsubsection{\texorpdfstring{getDuration()}{getDuration()}}
+{\footnotesize\ttfamily int Graph.\+Edge.\+get\+Duration (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Get duration node
+
+\begin{DoxyReturn}{Returns}
+duration node 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGraph_1_1Edge_a10f7d1c245e9c7e2ecf27aad592338c0}\label{classGraph_1_1Edge_a10f7d1c245e9c7e2ecf27aad592338c0}} 
+\index{Graph.Edge@{Graph.Edge}!getFlow@{getFlow}}
+\index{getFlow@{getFlow}!Graph.Edge@{Graph.Edge}}
+\doxysubsubsection{\texorpdfstring{getFlow()}{getFlow()}}
+{\footnotesize\ttfamily int Graph.\+Edge.\+get\+Flow (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Get flow
+
+\begin{DoxyReturn}{Returns}
+flow 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGraph_1_1Edge_a36eddcaac8d16220d573f759d5d152a6}\label{classGraph_1_1Edge_a36eddcaac8d16220d573f759d5d152a6}} 
+\index{Graph.Edge@{Graph.Edge}!getSrc@{getSrc}}
+\index{getSrc@{getSrc}!Graph.Edge@{Graph.Edge}}
+\doxysubsubsection{\texorpdfstring{getSrc()}{getSrc()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classGraph_1_1Node}{Node}} Graph.\+Edge.\+get\+Src (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Get source node
+
+\begin{DoxyReturn}{Returns}
+source node 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGraph_1_1Edge_a0fbb444bf1c0ebe833d08708afd84d6d}\label{classGraph_1_1Edge_a0fbb444bf1c0ebe833d08708afd84d6d}} 
+\index{Graph.Edge@{Graph.Edge}!hashCode@{hashCode}}
+\index{hashCode@{hashCode}!Graph.Edge@{Graph.Edge}}
+\doxysubsubsection{\texorpdfstring{hashCode()}{hashCode()}}
+{\footnotesize\ttfamily int Graph.\+Edge.\+hash\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns source and destination for the object
+
+\begin{DoxyReturn}{Returns}
+corresponding integer 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGraph_1_1Edge_ab355a0082c574b5aff20facb28c5d114}\label{classGraph_1_1Edge_ab355a0082c574b5aff20facb28c5d114}} 
+\index{Graph.Edge@{Graph.Edge}!increaseFlow@{increaseFlow}}
+\index{increaseFlow@{increaseFlow}!Graph.Edge@{Graph.Edge}}
+\doxysubsubsection{\texorpdfstring{increaseFlow()}{increaseFlow()}}
+{\footnotesize\ttfamily void Graph.\+Edge.\+increase\+Flow (\begin{DoxyParamCaption}\item[{int}]{flow }\end{DoxyParamCaption})}
+
+Increase flow
+
+
+\begin{DoxyParams}{Parameters}
+{\em flow} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGraph_1_1Edge_ab46fb5912d0c97400b484319cd6ef84d}\label{classGraph_1_1Edge_ab46fb5912d0c97400b484319cd6ef84d}} 
+\index{Graph.Edge@{Graph.Edge}!isVisited@{isVisited}}
+\index{isVisited@{isVisited}!Graph.Edge@{Graph.Edge}}
+\doxysubsubsection{\texorpdfstring{isVisited()}{isVisited()}}
+{\footnotesize\ttfamily boolean Graph.\+Edge.\+is\+Visited (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Check if the edge has been visited
+
+\begin{DoxyReturn}{Returns}
+corresponding bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGraph_1_1Edge_ab902b7c7c89cfdcb73ef5ef1da48525a}\label{classGraph_1_1Edge_ab902b7c7c89cfdcb73ef5ef1da48525a}} 
+\index{Graph.Edge@{Graph.Edge}!setCapacity@{setCapacity}}
+\index{setCapacity@{setCapacity}!Graph.Edge@{Graph.Edge}}
+\doxysubsubsection{\texorpdfstring{setCapacity()}{setCapacity()}}
+{\footnotesize\ttfamily void Graph.\+Edge.\+set\+Capacity (\begin{DoxyParamCaption}\item[{int}]{capacity }\end{DoxyParamCaption})}
+
+Set capacity
+
+
+\begin{DoxyParams}{Parameters}
+{\em capacity} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGraph_1_1Edge_ad2bf7f3a6c4ef018f6f0b2d45b60e00f}\label{classGraph_1_1Edge_ad2bf7f3a6c4ef018f6f0b2d45b60e00f}} 
+\index{Graph.Edge@{Graph.Edge}!setDest@{setDest}}
+\index{setDest@{setDest}!Graph.Edge@{Graph.Edge}}
+\doxysubsubsection{\texorpdfstring{setDest()}{setDest()}}
+{\footnotesize\ttfamily void Graph.\+Edge.\+set\+Dest (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classGraph_1_1Node}{Node}}}]{dest }\end{DoxyParamCaption})}
+
+Set destination
+
+
+\begin{DoxyParams}{Parameters}
+{\em destination} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGraph_1_1Edge_a2c0f9ed28a0e3f848e61c410bb5deebb}\label{classGraph_1_1Edge_a2c0f9ed28a0e3f848e61c410bb5deebb}} 
+\index{Graph.Edge@{Graph.Edge}!setDuration@{setDuration}}
+\index{setDuration@{setDuration}!Graph.Edge@{Graph.Edge}}
+\doxysubsubsection{\texorpdfstring{setDuration()}{setDuration()}}
+{\footnotesize\ttfamily void Graph.\+Edge.\+set\+Duration (\begin{DoxyParamCaption}\item[{int}]{duration }\end{DoxyParamCaption})}
+
+Set duration
+
+
+\begin{DoxyParams}{Parameters}
+{\em duration} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGraph_1_1Edge_a206bd8d81c87de135bf68401eba28dad}\label{classGraph_1_1Edge_a206bd8d81c87de135bf68401eba28dad}} 
+\index{Graph.Edge@{Graph.Edge}!setFlow@{setFlow}}
+\index{setFlow@{setFlow}!Graph.Edge@{Graph.Edge}}
+\doxysubsubsection{\texorpdfstring{setFlow()}{setFlow()}}
+{\footnotesize\ttfamily void Graph.\+Edge.\+set\+Flow (\begin{DoxyParamCaption}\item[{int}]{flow }\end{DoxyParamCaption})}
+
+Set flow
+
+
+\begin{DoxyParams}{Parameters}
+{\em flow} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGraph_1_1Edge_a40d1fcb28a078e4c00432ded3ae69c78}\label{classGraph_1_1Edge_a40d1fcb28a078e4c00432ded3ae69c78}} 
+\index{Graph.Edge@{Graph.Edge}!setSrc@{setSrc}}
+\index{setSrc@{setSrc}!Graph.Edge@{Graph.Edge}}
+\doxysubsubsection{\texorpdfstring{setSrc()}{setSrc()}}
+{\footnotesize\ttfamily void Graph.\+Edge.\+set\+Src (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classGraph_1_1Node}{Node}}}]{src }\end{DoxyParamCaption})}
+
+Set source
+
+
+\begin{DoxyParams}{Parameters}
+{\em source} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGraph_1_1Edge_a27f4ceb537f797e3019315535db25135}\label{classGraph_1_1Edge_a27f4ceb537f797e3019315535db25135}} 
+\index{Graph.Edge@{Graph.Edge}!setVisited@{setVisited}}
+\index{setVisited@{setVisited}!Graph.Edge@{Graph.Edge}}
+\doxysubsubsection{\texorpdfstring{setVisited()}{setVisited()}}
+{\footnotesize\ttfamily void Graph.\+Edge.\+set\+Visited (\begin{DoxyParamCaption}\item[{boolean}]{visited }\end{DoxyParamCaption})}
+
+Set edge as visited or not visited
+
+
+\begin{DoxyParams}{Parameters}
+{\em corresponding} & bool \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Graph/Edge.\+java\end{DoxyCompactItemize}

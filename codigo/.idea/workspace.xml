@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="90cabfe2-c5f6-44e8-8dee-af9865dd39c7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DA_proj_2-master.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_06_2022_10_16_[Changes]/action_register.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/build" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/annotated.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/bc_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/bdwn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/classApplication-members.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/classApplication.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/classGraph_1_1Edge-members.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/classGraph_1_1Edge.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/classGraph_1_1Graph-members.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/classGraph_1_1Graph.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/classGraph_1_1Node-members.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/classGraph_1_1Node.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/classGraph_1_1Node__coll__graph.dot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/classGraph_1_1Node__inherit__graph.dot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/classUtils_1_1Algorithms-members.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/classUtils_1_1Algorithms.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/classUtils_1_1Pair-members.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/classUtils_1_1Pair.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/classUtils_1_1Utils-members.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/classUtils_1_1Utils.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/closed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/dir_0a824aa1f70ce3b829ef378253b085da.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/dir_45814856f36e01cbe959f35071d50d5a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/doc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/doxygen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/doxygen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/dynsections.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/folderclosed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/folderopen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/functions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/functions_func.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/graph_legend.dot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/graph_legend.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/hierarchy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/inherit_graph_0.dot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/inherit_graph_1.dot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/inherit_graph_2.dot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/inherit_graph_3.dot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/inherit_graph_4.dot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/inherit_graph_5.dot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/inherit_graph_6.dot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/inherits.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/menudata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/nav_f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/nav_g.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/nav_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/all_0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/all_0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/all_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/all_1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/all_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/all_2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/all_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/all_3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/all_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/all_4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/all_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/all_5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/all_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/all_6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/all_7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/all_7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/all_8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/all_8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/all_9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/all_9.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/all_a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/all_a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/all_b.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/all_b.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/all_c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/all_c.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/all_d.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/all_d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/classes_0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/classes_0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/classes_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/classes_1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/classes_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/classes_2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/classes_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/classes_3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/classes_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/classes_4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/classes_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/classes_5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/functions_0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/functions_0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/functions_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/functions_1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/functions_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/functions_2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/functions_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/functions_3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/functions_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/functions_4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/functions_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/functions_5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/functions_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/functions_6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/functions_7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/functions_7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/functions_8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/functions_8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/functions_9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/functions_9.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/functions_a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/functions_a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/functions_b.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/functions_b.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/functions_c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/functions_c.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/mag_sel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/nomatches.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/search_l.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/search_m.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/search_r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/search/searchdata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/splitbar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/sync_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/sync_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/tab_a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/tab_b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/tab_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/tab_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/latex/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/latex/annotated.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/latex/classApplication.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/latex/classGraph_1_1Edge.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/latex/classGraph_1_1Graph.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/latex/classGraph_1_1Node.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/latex/classGraph_1_1Node.tex.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/latex/classGraph_1_1Node__coll__graph.dot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/latex/classGraph_1_1Node__inherit__graph.dot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/latex/classUtils_1_1Algorithms.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/latex/classUtils_1_1Pair.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/latex/classUtils_1_1Utils.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/latex/doxygen.sty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/latex/hierarchy.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/latex/longtable_doxygen.sty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/latex/refman.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/latex/tabu_doxygen.sty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataset/Tests/test_.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataset/Tests_B/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataset/Tests_B/in01_b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataset/Tests_B/in02_b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataset/Tests_B/in03_b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataset/Tests_B/in04_b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataset/Tests_B/in05_b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataset/Tests_B/in06_b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataset/Tests_B/in07_b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataset/Tests_B/in08_b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataset/Tests_B/in09_b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataset/Tests_B/in10_b.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/Edge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utils/Algorithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils/Algorithms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utils/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils/Pair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataset/Tests/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../dataset/Tests/test.txt" afterDir="false" />
+    </list>
+    <list id="9e40f299-9ceb-4514-8989-b140452229e5" name="Changes by 35191" comment="" />
+    <list id="6f116d6f-e9c4-4a44-a04f-bf6ecb4db409" name="Changes by windows" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Graph/Edge.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Graph/Graph.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Application.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Utils/Pair.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Utils/Utils.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Graph/Node.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="29HlSIgO1FKPwtH1kqdPxPNbFVl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Application" />
+      <module name="proj2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="90cabfe2-c5f6-44e8-8dee-af9865dd39c7" name="Changes" comment="" />
+      <created>1652777890650</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652777890650</updated>
+      <workItem from="1652793782397" duration="13000" />
+      <workItem from="1654202942795" duration="1355000" />
+      <workItem from="1654283393077" duration="598000" />
+      <workItem from="1654334128601" duration="3177000" />
+      <workItem from="1654351517070" duration="11822000" />
+      <workItem from="1654427706255" duration="19521000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Application.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Graph.Node" memberName="outgoingEdges" />
+        <PinnedItemInfo parentTag="Graph.Node" memberName="value" />
+        <PinnedItemInfo parentTag="Graph.Graph" memberName="nodes" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="graph.entrySet().toArray()[3]" />
+        <watch expression="((HashMap)graph.graph).entrySet().toArray()[7]" custom="java.util.HashMap" />
+        <watch expression="graph.nodes.get(2).outgoingEdges" />
+        <watch expression="((HashMap.Node)((HashMap)rGraph.graph).entrySet().toArray()[0]).getKey()" custom="java.util.HashMap.Node,java.util.HashMap" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/proj2$Application.ic" NAME="Application Coverage Results" MODIFIED="1654006390716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
